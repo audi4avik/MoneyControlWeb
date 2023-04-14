@@ -15,7 +15,7 @@
 ### Download IDE
 
 Python & Robot Framework work best with [Pycharm](https://download.jetbrains.com/python/pycharm-community-2021.3.1.exe?_gl=1*1qd96xk*_ga*MTMwMDk3MjE5OS4xNjUzOTc3Njk1*_ga_9J976DJZ68*MTY1Mzk3NzY5NS4xLjEuMTY1Mzk3ODM4OC41Ng..&_ga=2.105859915.934492126.1653977695-1300972199.1653977695External%20Libraries). Download the free community edition.
-**Pycharm Plugin:** Download [IntelliBot #patched](https://plugins.jetbrains.com/plugin/17424-intellibot-patched). Supports autocomplete for Robot keywords.
+**Pycharm Plugin:** Download [Hyper RobotFramework Support](https://plugins.jetbrains.com/plugin/16382-hyper-robotframework-support). Supports autocomplete for Robot keywords.
 
 ### Installation
 
@@ -43,7 +43,7 @@ C:\Users\ibmadmin\AppData\Local\Programs\Python\<Python310>\DLLs
 
 Avik Datta | [LinkedIn](https://www.linkedin.com/in/avikdatta/) | avikdatta2010@gmail.com
 
-Project Link: [https://github.com/audi4avik/Workday.git](https://github.com/audi4avik/Workday.git)
+Project Link: [https://github.com/audi4avik/MoneyControlWeb.git](https://github.com/audi4avik/MoneyControlWeb.git)
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
