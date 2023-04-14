@@ -15,7 +15,7 @@
 ### Download IDE
 
 Python & Robot Framework work best with [Pycharm](https://download.jetbrains.com/python/pycharm-community-2021.3.1.exe?_gl=1*1qd96xk*_ga*MTMwMDk3MjE5OS4xNjUzOTc3Njk1*_ga_9J976DJZ68*MTY1Mzk3NzY5NS4xLjEuMTY1Mzk3ODM4OC41Ng..&_ga=2.105859915.934492126.1653977695-1300972199.1653977695External%20Libraries). Download the free community edition.
-**Pycharm Plugin:** Download [Hyper RobotFramework Support](https://plugins.jetbrains.com/plugin/16382-hyper-robotframework-support). Supports autocomplete for Robot keywords.
+**Pycharm Plugin:** Download [Hyper RobotFramework Support](https://plugins.jetbrains.com/plugin/16382-hyper-robotframework-support) - autocomplete for Robot keywords.
 
 ### Installation
 
@@ -33,10 +33,10 @@ The project is developed with open source python libraries which will always rem
 Set System Variable (Path) for Python Runtime
 
 ```sh
-C:\Users\ibmadmin\AppData\Local\Programs\Python\<Python310>
-C:\Users\ibmadmin\AppData\Local\Programs\Python\<Python310>\Scripts
-C:\Users\ibmadmin\AppData\Local\Programs\Python\<Python310>\Lib
-C:\Users\ibmadmin\AppData\Local\Programs\Python\<Python310>\DLLs
+C:\Users\<CurrentUser>\AppData\Local\Programs\Python\<Python310>
+C:\Users\<CurrentUser>\AppData\Local\Programs\Python\<Python310>\Scripts
+C:\Users\<CurrentUser>\AppData\Local\Programs\Python\<Python310>\Lib
+C:\Users\<CurrentUser>\AppData\Local\Programs\Python\<Python310>\DLLs
 ```
 
 ### Contact
