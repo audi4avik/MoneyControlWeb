@@ -6,30 +6,31 @@ Library  ../Library/webdriversync.py
 
 *** Keywords ***
 Start Test Suite
-    log to console    This is the start of NSE India test suite
-    remove files     ${output_dir}/*.png
-    remove files      ${screenshot_dir}/*.png
-    set global variable    ${screenshot_dir}
+    Log To Console      This is the start of NSE India test suite
+    Remove Files        ${output_dir}/*.png
+    Remove Files        ${screenshot_dir}/*.png
+    Set Global Variable        ${screenshot_dir}
+    Set Global Variable        ${excelPath}
 
 Begin Test
     [Arguments]    ${browser}   ${baseUrl}
-     IF    "${browser}"== "chrome"
+    IF    "${browser}"== "chrome"
         ${webdriver_path}=   webdriversync.get chromedriver
 #    ELSE IF    "${browser}"== "edge"
 #        ${webdriver_path}=   webdriversync.get edgedriver
     ELSE
         log    Stay tuned! More browser support coming soon.
     END
-    open browser    about:blank     browser=${browser}    executable_path=${webdriver_path}
-    maximize browser window
-    go to    ${baseUrl}
+    Open Browser        about:blank     browser=${browser}    executable_path=${webdriver_path}
+    Maximize Browser Window
+    Go To    ${baseUrl}
 
 End Test
-    register keyword to run on failure    capture page screenshot
-    run keyword if test failed      log    Test has failed. Please check detailed log.
-    run keyword if test passed      log    Test passed successfully.
-    delete all cookies
-    close browser
+    Register Keyword To Run On Failure     capture page screenshot
+    Run Keyword If Test Failed      log    Test has failed. Please check detailed log.
+    Run Keyword If Test Passed      log    Test passed successfully.
+    Delete All Cookies
+    Close Browser
 
 End Test Suite
-    log to console    This is the end of all tests.
+    Log To Console    This is the end of all tests.

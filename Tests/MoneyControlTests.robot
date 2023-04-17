@@ -15,7 +15,7 @@ TC01_Validate And Capture Top Gainers From Market List
     [Tags]    top1
     Given User Is On The MoneyControl Website
     When User Proceeds To See Top Gainers
-    # Then User Should Be Able To Capture The Data In Excel
+    Then User Should Be Able To Capture The Data In Excel
 
 # TC02_Validate And Capture Top 5 Losers
 #    [Documentation]    Capture the top five shares with loss

@@ -1,3 +1,4 @@
+# Custom methods to get browser instances from WDM
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
